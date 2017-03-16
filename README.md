@@ -24,4 +24,5 @@ Output table of normalized losses between images (JPEG/PNG) in the specified fol
 
 # Reference
 - [A Neural Algorithm of Artistic Style, L. Gatys et al. 2015](https://arxiv.org/abs/1508.06576)
+- [Very Deep Convolutional Networks for Large-Scale Image Recognition, K. Simonyan and A. Zisserman 2014](https://arxiv.org/pdf/1409.1556.pdf)
 - [Neural Style, A. Athalye 2015](https://github.com/anishathalye/neural-style)
