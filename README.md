@@ -20,6 +20,7 @@ Output table of normalized losses between images (JPEG/PNG) in the specified fol
 - [Tensorflow](https://www.tensorflow.org)
 - [Numpy](http://www.numpy.org)
 - [Scipy](https://www.scipy.org)
+- [Pandas](http://pandas.pydata.org)
 - [Pillow](https://python-pillow.org)
 
 # Reference
