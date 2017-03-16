@@ -1,7 +1,7 @@
 # neural-style-loss
 Style similarity estimation between images utilizing [neural style transfer network](https://arxiv.org/abs/1508.06576). The code is based on [Tensorflow implementation](https://github.com/anishathalye/neural-style) of neural style transfer network.
 
-This code simply calculates L2 loss of "style" Gram matrices to estimate style (dis)similarity between images without any training process.
+This code simply calculates squared loss of "style" Gram matrices to estimate style (dis)similarity between images without any training process.
 
 # Usage
 ## Comparing two images
