@@ -21,9 +21,6 @@ def build_parser():
     parser.add_argument('--image2',
             dest='image2', help='second image',
             metavar='IMAGE2', required=True)
-    parser.add_argument('--output',
-            dest='output', help='output path',
-            metavar='OUTPUT')
     parser.add_argument('--network',
             dest='network', help='path to network parameters (default %(default)s)',
             metavar='VGG_PATH', default=VGG_PATH)
