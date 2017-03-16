@@ -4,9 +4,7 @@ Style similarity estimation between images utilizing [neural style transfer netw
 This code simply calculates L2 loss of "style" Gram matrices to estimate style (dis)similarity between images without any training process.
 
 # Usage
-```
-python neural_style_loss.py --image1 <first image file> --image2 <second image file>
-```
+```python neural_style_loss.py --image1 <first image file> --image2 <second image file>```
 
 Need [Pre-trained VGG network](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat) in the top level of this repository, or in the specified location via ```--network``` option
 
