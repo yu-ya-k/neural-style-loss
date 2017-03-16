@@ -12,7 +12,7 @@ Need [Pre-trained VGG network](http://www.vlfeat.org/matconvnet/models/beta16/im
 See ```python neural_style_loss.py --help``` for other options
 
 ## Comparing multiple images at once
-```python style_loss_iterator.py --path <image file folder> --output <output csv file>```
+```python neural_style_loss_multi.py --path <image file folder> --output <output csv file>```
 
 Output table of normalized losses between images (JPEG/PNG) in the specified folder
 
