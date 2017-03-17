@@ -14,7 +14,7 @@ See ```python neural_style_loss.py --help``` for other options
 ## Comparing multiple images at once
 ```python neural_style_loss_multi.py --path <image file folder> --output <output csv file>```
 
-Output table of normalized losses between images (JPEG/PNG) in the specified folder
+Output table of style losses between images (JPEG/PNG) in the specified folder
 
 # Requirements
 - [Tensorflow](https://www.tensorflow.org)
