@@ -57,7 +57,7 @@ def styleloss(network, image1, image2, layer_weight_exp, pooling):
         layers_weights[layer] = layer_weight
         layer_weight *= layer_weight_exp
 
-    # normalize image2 layer weights
+    # normalize layer weights
     layer_weights_sum = 0
     for layer in LAYERS:
         layer_weights_sum += layers_weights[layer]
