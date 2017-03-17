@@ -88,9 +88,8 @@ def styleloss(network, image1, image2, layer_weight_exp, pooling):
             gram = np.matmul(features.T, features)
             image2_features[layer] = gram
 
-    # make stylized image using backpropogation
+    # calculate style loss from gram matrices
     with tf.Graph().as_default():
-        # style loss
         style_loss = 0
         style_losses = []
         for layer in LAYERS:
